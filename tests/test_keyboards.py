@@ -6,4 +6,4 @@ def test_main_menu_contains_appointment_button() -> None:
 
     button_texts = [button.text for row in keyboard.keyboard for button in row]
     assert "🦷 Записаться на приём" in button_texts
-
+    assert "🏥 Выбрать филиал" in button_texts
